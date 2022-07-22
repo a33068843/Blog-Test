@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/Blog-Test/static/js/main.5d241904.js",
+    "static/js/787.f5d536ff.chunk.js": "/Blog-Test/static/js/787.f5d536ff.chunk.js",
+    "static/media/home-dinosaur.png": "/Blog-Test/static/media/home-dinosaur.490d16eb9309a1877b33.png",
+    "index.html": "/Blog-Test/index.html",
+    "main.5d241904.js.map": "/Blog-Test/static/js/main.5d241904.js.map",
+    "787.f5d536ff.chunk.js.map": "/Blog-Test/static/js/787.f5d536ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5d241904.js"
+  ]
+}
