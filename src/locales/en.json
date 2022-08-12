@@ -1,0 +1,10 @@
+{
+  "common": "普通",
+  "app": {
+    "one": "{{count}} one",
+    "other": "{{count}} other"
+  },
+  "test_zero": "no {{count}} apple",
+  "test_one": "{{count}} apple",
+  "test_other": "{{count}} appless"
+}

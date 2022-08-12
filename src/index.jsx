@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { ResetStyle, GlobalStyle } from 'styles';
 import { Base } from 'pages';
+import './i18n';
 import reportWebVitals from './reportWebVitals';
+import { StyleSheetManager } from 'styled-components';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +13,9 @@ root.render(
     <ResetStyle />
     <GlobalStyle />
     <BrowserRouter>
-      <Base />
+      <StyleSheetManager disableVendorPrefixes>
+        <Base />
+      </StyleSheetManager>
     </BrowserRouter>
   </React.StrictMode>
 );
